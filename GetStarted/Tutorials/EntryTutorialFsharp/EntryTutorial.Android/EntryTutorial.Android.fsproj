@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE9C6768-2383-403D-8802-D25EE44C5A44}</ProjectGuid>
+    <ProjectGuid>{3F26CD94-5961-4559-BD16-B9392244F108}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>EditorTutorial.Droid</RootNamespace>
-    <AssemblyName>EditorTutorial.Android</AssemblyName>
+    <RootNamespace>EntryTutorial.Droid</RootNamespace>
+    <AssemblyName>EntryTutorial.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -78,16 +78,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <None Include="Assets\AboutAssets.txt" />
-    <PackageReference Include="Xamarin.Android.FSharp.ResourceProvider">
-      <Version>1.0.0.28</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
     <PackageReference Include="FSharp.Core">
       <Version>4.7.0</Version>
     </PackageReference>
-    <ProjectReference Include="..\EditorTutorial\EditorTutorial.fsproj">
-      <Project>{26387595-8B9A-4CC9-BD8E-448C964C2790}</Project>
-      <Name>EditorTutorial</Name>
+    <PackageReference Include="Xamarin.Android.FSharp.ResourceProvider">
+      <Version>1.0.0.28</Version>
+    </PackageReference>
+    <ProjectReference Include="..\EntryTutorial\EntryTutorial.fsproj">
+      <Project>{6125963D-2BDF-4A28-8ECF-3883FC569BBF}</Project>
+      <Name>EntryTutorial</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.FSharp.targets" />
